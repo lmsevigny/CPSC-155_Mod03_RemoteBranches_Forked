@@ -1,4 +1,4 @@
-# Ch3.5
+# Module 03
 # Exercise: Fetching and Pulling from Remote Branches
 
 ## Step 1
@@ -112,7 +112,7 @@ C0 -- C1 ------ C3 ---- | ------------------------------------- | -------- C9 --
 ## Step 10
 Run the following command to create a new remote (`nullptrforked`) to the repository that was modified by author `gitbotforked`.
 ```bash
-$ git remote add nullptrforked git@nullptr.boisestate.edu:cs-hu250_hands_on_ch3.5_remote_branches_forked
+$ git remote add nullptrforked https://github.com/lmsevigny/CPSC-155_Mod03_RemoteBranches_Forked.git
 $ git remote -v
 ```
 The last command should indicate that there are two remotes in your repository.
